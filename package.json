@@ -1,0 +1,32 @@
+{
+	"name": "web-dev-blog-services",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"lint": "eslint src/js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/navin-pratap/web-dev-blog-services.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/navin-pratap/web-dev-blog-services/issues"
+	},
+	"homepage": "https://github.com/navin-pratap/web-dev-blog-services#readme",
+	"dependencies": {
+		"cookie-parser": "^1.4.5",
+		"debug": "^4.3.1",
+		"express": "^4.17.1",
+		"http-errors": "^1.8.0",
+		"jade": "^1.11.0",
+		"morgan": "^1.10.0"
+	},
+	"devDependencies": {
+		"eslint": "^7.17.0"
+	}
+}
